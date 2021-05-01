@@ -1,0 +1,33 @@
+.messageContainer {
+  width: 61%;
+  height: 600px;
+  border-right: 1px solid snow;
+  /* justify-content: space-around;     */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+  background-image: url("https://wallpaperstock.net/whatsapp-background-wallpapers_51439_1920x1080.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.messageContainer::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+  overflow: -moz-scrollbars-none;
+}
+
+/* @media screen and (max-width: 768px) {
+  .messageContainer {
+    width: 61%;
+  }
+} */
+@media screen and (min-width: 300px) {
+  .messageContainer {
+    width: 61%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .messageContainer {
+    width: 100%;
+    border: none;
+  }
+}

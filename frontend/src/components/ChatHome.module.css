@@ -1,0 +1,77 @@
+.chatLoginContainer {
+  background-color: #1a1a1d;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.InnerContainer_header {
+  color: aliceblue;
+}
+.InnerContainer_header h1 {
+  font-size: 45px;
+  margin-bottom: 8px;
+}
+.InnerContainer_header p {
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .InnerContainer_header h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .InnerContainer_header p {
+    font-size: 26px;
+    display: none;
+  }
+}
+.InnerContainer_input {
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+  padding: 15px 20px;
+  width: 60%;
+  outline: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .InnerContainer_input {
+    /* width: 58%; */
+    padding: 10px 10px;
+  }
+}
+
+.margin20 {
+  margin-bottom: 20px;
+}
+
+.InnerContainer_Btn {
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+  padding: 15px 20px;
+  width: 68%;
+  color: #0ab326;
+  font-weight: 700;
+  font-size: 16px;
+  outline: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .InnerContainer_Btn {
+    width: 38%;
+    padding: 10px 10px;
+    font-size: 12px;
+  }
+}
+
+.InnerContainer_Btn:hover {
+  background-color: rgb(16, 157, 88);
+  color: aliceblue;
+  border: 1px solid rgb(16, 157, 88);
+  outline: none;
+}

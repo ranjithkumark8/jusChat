@@ -1,0 +1,29 @@
+.ActiveUser {
+  font-size: 1em;
+  margin-left: 3%;
+  text-align: left;
+  overflow: auto;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+  /* background-color: #03594c; */
+  color: #4a4a4a;
+}
+.ActiveUser::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+  .ActiveUser {
+    display: none;
+  }
+}
+.ActiveUser h2 {
+  color: #064d1a;
+}
+
+@media screen and (max-width: 768px) {
+  .ActiveUser h2 {
+    font-size: 18px;
+    /* color: #4a4a4a; */
+  }
+}
