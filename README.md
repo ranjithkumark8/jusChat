@@ -19,9 +19,14 @@ This project was created to develop understanding with socket.io and real time c
 ![Chat Room](https://github.com/ranjithkumark8/jusChat/blob/master/images/Chat%20Room.jpg?raw=true)
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+### Frontend
+* React
+* [React-emoji](https://www.npmjs.com/package/react-emoji)
+* [socket.io-client](https://www.npmjs.com/package/socket.io-client)
+* [react-scrollable-feed](https://www.npmjs.com/package/react-scrollable-feed?activeTab=versions)
+### Backend
+* Express
+* socket.io
 
 ## Setup
 Describe how to install / setup your local environement / add link to demo version.
