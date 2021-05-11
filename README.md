@@ -40,7 +40,7 @@ git clone https://github.com/ranjithkumark8/jusChat.git <your_directory_name>
 
 To-do list:
 * Need to integrate with the database.
-* Allow user to join group whenever he refresh the page, when he is in chat page instead of showing error message.
+* Instead of showing an error message, allow users to join groups if they refresh the tab while in the chat page.
 
 
 ## Contact
