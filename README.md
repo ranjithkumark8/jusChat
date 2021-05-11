@@ -7,8 +7,6 @@
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
 * [Contact](#contact)
 
 ## General info
@@ -29,27 +27,21 @@ This project was created to develop understanding with socket.io and real time c
 * socket.io
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
-
-## Code Examples
-Show examples of usage:
-`put-your-code-here`
-
+```
+To Run locally, firstly you need to clone the project use below command to clone the project
+git clone https://github.com/ranjithkumark8/jusChat.git <your_directory_name>
+```
+* Nagivate to the frontend folder and install required packages using ```npm install``` and run the application using ```npm start```
+* Similarly, navigate to backend folder and install required packages using ```npm install``` and run the server using ```npm run server```
 ## Features
-List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* Instant delivery of message
+* Sending emoji
+* Simple UI
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Need to integrate with the database.
+* Allow user to join group whenever he refresh the page, when he is in chat page instead of showing error message.
 
-## Status
-Project is: _in progress_, _finished_, _no longer continue_ and why?
-
-## Inspiration
-Add here credits. Project inspired by..., based on...
 
 ## Contact
 Created by [@Ranjith Kumar](https://www.linkedin.com/in/ranjithkumark8/) - feel free to contact me!
